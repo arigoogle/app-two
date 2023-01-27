@@ -7,10 +7,11 @@ function Navigation() {
             <h1>
                 React Routing DOM
             </h1>
-            <nav>
-                <Link to='/'>Home</Link> | {" "}
-                <Link to='profile'>Profile</Link> | {" "}
-                <Link to='about'>About</Link> | {" "}
+            <nav className='py-3'>
+                <Link to='/'> All Meetup </Link> |
+                <Link to='new-meetup'> New Meetup </Link> |
+                <Link to='favorites'> Favorites </Link> |
+                <Link to='safasf'> 404 </Link> |
             </nav>
         </div>
     )

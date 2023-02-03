@@ -1,5 +1,10 @@
 function NewMeetupPage() {
-    return <div>New Meetup</div>
+    return (
+        <section>
+            <h1>Add New Meetup</h1>
+            <form action=""></form>
+        </section>
+    )
 }
 
 export default NewMeetupPage;
